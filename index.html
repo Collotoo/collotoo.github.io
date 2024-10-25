@@ -47,13 +47,8 @@
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Collin Too</h1>
         <p class="section__text__p2">Software Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
-          >
-            Download CV
-          </button>
+        <div class="btn-container">       
+          
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
@@ -77,14 +72,7 @@
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
+      <div class="section-container">        
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
@@ -103,7 +91,7 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p>B.Sc. Bachelors Degree</p>
             </div>
           </div>
           <div class="text-container">
@@ -264,6 +252,9 @@
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+          
+          <!-- Commented out Project One -->
+          <!--
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -288,6 +279,10 @@
               </button>
             </div>
           </div>
+          -->
+    
+          <!-- Commented out Project Two -->
+          <!--
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -312,30 +307,35 @@
               </button>
             </div>
           </div>
+          -->
+    
+          <!-- Project Three is still visible -->
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
+                src="./assets/wph.png"
+                alt="wph"
+                class="wph"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
+            <h2 class="experience-sub-title project-title">whitepaperhaven</h2>
+            <p> This a service agency with an ordering system inspired by fiverr gig style model. <br>
+                It has a blog and admin section to create blogs, admin settings, user management, <br>
+                all orders management and gig creating and management. <br>
+                Its created with Blazor SSR and ASP Net core. <br>
+                Css: Tailwind<br>
+                Database: PostgreSQL 
+            </p>
+            <div class="btn-container">              
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://whitepaperhaven.com/'"
               >
                 Live Demo
               </button>
             </div>
           </div>
+          
         </div>
       </div>
       <img
@@ -345,6 +345,7 @@
         onclick="location.href='./#contact'"
       />
     </section>
+    
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
