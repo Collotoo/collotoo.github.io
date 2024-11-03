@@ -213,9 +213,8 @@ section {
 
 
 .section__text {
-  align-self: center;
-  text-align: left;
-  margin-top: 50px;
+  
+  text-align: left;  
 }
 
 .section__text p {
