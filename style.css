@@ -230,12 +230,12 @@ section {
 
 .title {
   font-size: 3rem;
-  text-align: center;
+  text-align: left;
 }
 
 #socials-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-top: 1rem;
   gap: 1rem;
 }
