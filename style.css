@@ -9,7 +9,7 @@
 
 body {
   font-family: "Courier Prime", monospace;
-  background: linear-gradient(135deg, #1a1a1a, #4d4d4d, #d3d3d3);
+  background: radial-gradient(circle, #f7f7f7, #dcdcdc, #bfbfbf);
 }
 
 html {
