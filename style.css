@@ -200,21 +200,44 @@ section {
 
 @keyframes glowEffect {
   0% {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba(96, 176, 244, 0.5); 
   }
   25% {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(96, 176, 244, 0.6); 
   }
   50% {
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 30px rgba(96, 176, 244, 0.7); 
   }
   75% {
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 40px rgba(96, 176, 244, 0.8); 
   }
   100% {
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 50px rgba(96, 176, 244, 0.9); 
   }
 }
+.planetImg {
+  transform: scale(0.7) rotate(158deg);
+  position: absolute;
+  top: -5%;
+  right: 13%;
+  animation: float 12s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px) translatex(5px) scale(0.7) rotate(156deg);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px) translatex(-5px) scale(0.7) rotate(162deg);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px) translatex(5px) scale(0.7) rotate(156deg);
+  }
+}
+
 
 
 .section__text {
