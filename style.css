@@ -181,7 +181,7 @@ section {
 .profile-container {
   margin-top: 30px;
   display: flex;
-  justify-content: flex-start;
+  
 }
 
 .profile-pic {
@@ -193,6 +193,7 @@ section {
   box-shadow: 0 0 30px rgba(0, 255, 255, 0.6);
   animation: glowEffect 1.5s infinite alternate;
   align-items: center;
+  justify-content: center;
 }
 
 .profile-pic img {
