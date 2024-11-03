@@ -216,6 +216,7 @@ section {
   }
 }
 .planetImg {
+  transform: rotate(158deg); 
   position: absolute;
   top: -5%;
   right: 13%;
