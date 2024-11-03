@@ -176,12 +176,12 @@ section {
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.6);
   animation: glowEffect 1.5s infinite alternate;
 }
 
@@ -193,10 +193,12 @@ section {
 
 @keyframes glowEffect {
   0% {
-      box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+
   }
   100% {
-      box-shadow: 0 0 30px rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+
   }
 }
 
