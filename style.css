@@ -179,8 +179,7 @@ section {
 
 /* Profile Picture with Circular Shape and Glow Effect */
 .profile-container {
-  margin-top: 30px;
-  display: flex;  
+  margin-top: 30px;    
 }
 
 .profile-pic {
