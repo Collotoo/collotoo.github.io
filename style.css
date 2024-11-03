@@ -219,7 +219,7 @@ section {
   transform: scale(0.7) rotate(-158deg);
   position: absolute;
   top: -5%;
-  right: 80%;
+  right: 75%;
   animation: float 12s ease-in-out infinite;
 }
 
