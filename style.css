@@ -226,18 +226,17 @@ section {
 @keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px) translatex(5px) scale(0.7) rotate(156deg);
+    transform: translateY(0px) translateX(-5px) scale(0.7) rotate(156deg); /* Changed to -5px */
   }
   50% {
     box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    transform: translatey(-20px) translatex(-5px) scale(0.7) rotate(162deg);
+    transform: translateY(-20px) translateX(5px) scale(0.7) rotate(162deg); /* Changed to 5px */
   }
   100% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px) translatex(5px) scale(0.7) rotate(156deg);
+    transform: translateY(0px) translateX(-5px) scale(0.7) rotate(156deg); /* Changed to -5px */
   }
 }
-
 
 
 .section__text {
