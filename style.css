@@ -180,8 +180,7 @@ section {
 /* Profile Picture with Circular Shape and Glow Effect */
 .profile-container {
   margin-top: 30px;
-  display: flex;
-  
+  display: flex;  
 }
 
 .profile-pic {
@@ -243,8 +242,14 @@ section {
 }
 
 
-.section__text { 
-  text-align: left;  
+.section__text {
+  text-align: left;                 
+  width: 100%;                      
+  max-width: 600px;                 
+  overflow-wrap: break-word;        
+  word-break: break-word;          
+  margin: 0;                        
+  padding: 10px;                    
 }
 
 .section__text p {
