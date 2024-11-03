@@ -244,6 +244,32 @@ section {
   -webkit-text-stroke: 0;
 }
 
+/* ICONS */
+.icon {
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+  object-fit: contain;
+  filter: brightness(0.8);
+  transition: all 0.3s ease;
+}
+
+.icon:hover {
+  filter: brightness(1);
+  transform: scale(1.1);
+}
+
+#socials-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#socials-container .icon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
 /* BUTTONS */
 .btn-container {
   display: flex;
@@ -297,9 +323,15 @@ section {
   gap: 2rem;
 }
 
+.experience-sub-title {
+  color: white;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
 .article-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
 }
 
@@ -307,14 +339,50 @@ article {
   display: flex;
   align-items: center;
   gap: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
 }
 
-/* PROJECT SECTION */
+article:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+article .icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+}
+
+article div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+article div h3 {
+  color: white;
+  font-size: 1rem;
+}
+
+article div p {
+  color: #60b0f4;
+  font-size: 0.9rem;
+}
+
+/* PROJECTS SECTION */
 .project-img {
   width: 100%;
+  max-width: 400px;
   height: auto;
+  aspect-ratio: 16/9;
+  object-fit: cover;
   border-radius: 1rem;
   transition: transform 0.3s ease;
+  margin: 0 auto;
+  display: block;
 }
 
 .project-img:hover {
@@ -338,6 +406,56 @@ article {
   display: flex;
   align-items: center;
   gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.contact-info-container:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.contact-info-container p {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.contact-info-container p a {
+  color: #60b0f4;
+}
+
+.contact-info-container p a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.contact-icon {
+  height: 2.5rem !important;
+  width: 2.5rem !important;
+}
+
+.email-icon {
+  height: 2.5rem !important;
+  width: 2.5rem !important;
+}
+
+/* Arrow icon */
+.arrow {
+  position: absolute;
+  right: 2rem;
+  bottom: 2.5rem;
+  height: 2rem;
+  width: 2rem;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 /* FOOTER */
@@ -345,6 +463,11 @@ footer {
   padding: 2rem;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+  color: white;
+  opacity: 0.8;
 }
 
 /* MEDIA QUERIES */
@@ -370,6 +493,25 @@ footer {
 
   .title {
     font-size: 2.5rem;
+  }
+
+  .arrow {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  article {
+    min-width: 150px;
+  }
+
+  .contact-info-upper-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info-container {
+    width: 100%;
+    justify-content: center;
   }
 }
 
