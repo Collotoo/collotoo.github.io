@@ -165,9 +165,9 @@ section {
 
 #profile {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 5rem;
-  height: 80vh;
+  height: 100vh;
 }
 
 /* Profile Picture with Circular Shape and Glow Effect */
@@ -193,18 +193,26 @@ section {
 
 @keyframes glowEffect {
   0% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  25% {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  50% {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
-
+  }
+  75% {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
   }
   100% {
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
-
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
   }
 }
 
+
 .section__text {
   align-self: center;
-  text-align: center;
+  text-align: left;
 }
 
 .section__text p {
@@ -212,7 +220,7 @@ section {
 }
 
 .section__text__p1 {
-  text-align: center;
+  text-align: left;
 }
 
 .section__text__p2 {
