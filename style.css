@@ -276,8 +276,8 @@ section {
   height: 2.5rem;
   width: 2.5rem;
   background: transparent;
-  filter: none; /* Remove any filter affecting visibility */
-  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for hover effects */
+  filter: none; 
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 /* BUTTONS */
@@ -442,11 +442,17 @@ article div p {
 .contact-icon {
   height: 2.5rem !important;
   width: 2.5rem !important;
+  background: transparent;
+  filter: none; 
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .email-icon {
   height: 2.5rem !important;
   width: 2.5rem !important;
+  background: transparent;
+  filter: none; 
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 /* Arrow icon */
