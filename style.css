@@ -275,7 +275,7 @@ section {
 #socials-container .icon {
   height: 2.5rem;
   width: 2.5rem;
-  background: transparent;
+  background: none;
   filter: none; 
   transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -442,7 +442,7 @@ article div p {
 .contact-icon {
   height: 2.5rem !important;
   width: 2.5rem !important;
-  background: transparent;
+  background: none;
   filter: none; 
   transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -450,7 +450,7 @@ article div p {
 .email-icon {
   height: 2.5rem !important;
   width: 2.5rem !important;
-  background: transparent;
+  background: none;
   filter: none; 
   transition: transform 0.3s ease, filter 0.3s ease;
 }
