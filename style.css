@@ -206,6 +206,12 @@ section {
     transform: translateY(-20px) rotate(-162deg) scale(0.7);
   }
 }
+#WebGL-output {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 
 /* TEXT STYLES */
 .section__text {
