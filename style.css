@@ -149,7 +149,7 @@ section {
 /* PROFILE SECTION */
 #profile {
   display: flex;
-  justify-content: left;
+  justify-content: flex-start;
   gap: 2rem;
   height: auto;
   
