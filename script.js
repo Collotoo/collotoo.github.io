@@ -4,7 +4,7 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
-window.onload = function() {
+
   function main() {
     let scene = new THREE.Scene();
     let camera = new THREE.PerspectiveCamera(
@@ -138,6 +138,6 @@ window.onload = function() {
       requestAnimationFrame(render);
       webGLRenderer.render(scene, camera);
     }
-  }
-};
+  
+}main();
 
