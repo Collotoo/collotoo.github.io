@@ -394,6 +394,9 @@ article div p {
   margin: 0 auto;
   display: block;
 }
+.about-project{
+text-align: left;
+}
 
 .project-img:hover {
   transform: scale(1.02);
