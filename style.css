@@ -175,8 +175,7 @@ section {
   object-fit: cover;
 }
 .hero {
-  display: flex;   
-  align-items: center; 
+  display: flex;    
   flex-wrap: wrap; 
   padding: 20px; 
   gap: 2rem; 
