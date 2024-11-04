@@ -149,16 +149,13 @@ section {
 /* PROFILE SECTION */
 #profile {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: left;
   gap: 5rem;
-  position: relative;
+  height: 100vh;
 }
 
 .profile-container {
-  display: flex;  
-  gap: 2rem;
-  max-width: 800px;
+  margin-top: 20px;   
 }
 
 .profile-pic {
