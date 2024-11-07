@@ -422,7 +422,7 @@ text-align: left;
   margin: 2rem 0;
 
   /* Conic Gradient Animation */
-  --border-angle: 0 turn; /* For initial rotation of the gradient */
+  --border-angle: 0turn; /* For initial rotation of the gradient */
   --main-bg: conic-gradient(
       from var(--border-angle),
       #213,
