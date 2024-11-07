@@ -578,7 +578,7 @@ footer p {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  animation: rotateCube 20s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  animation: rotateCube 30s infinite steps(4, end);
 }
 /* Cube Animation */
 @keyframes rotateCube {
