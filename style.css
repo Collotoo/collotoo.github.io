@@ -183,15 +183,22 @@ section {
 
 @keyframes glowEffect {
   0% {
-    box-shadow: 0 0 20px rgba(96, 176, 244, 0.5);
+    box-shadow: 0 0 30px rgba(96, 176, 244, 0.7), 0 0 60px rgba(96, 176, 244, 0.5);
+  }
+  25% {
+    box-shadow: 0 0 40px rgba(96, 176, 244, 0.8), 0 0 70px rgba(96, 176, 244, 0.6);
   }
   50% {
-    box-shadow: 0 0 40px rgba(96, 176, 244, 0.8);
+    box-shadow: 0 0 60px rgba(96, 176, 244, 1), 0 0 80px rgba(96, 176, 244, 0.8);
+  }
+  75% {
+    box-shadow: 0 0 50px rgba(96, 176, 244, 0.9), 0 0 70px rgba(96, 176, 244, 0.7);
   }
   100% {
-    box-shadow: 0 0 20px rgba(96, 176, 244, 0.5);
+    box-shadow: 0 0 30px rgba(96, 176, 244, 0.7), 0 0 60px rgba(96, 176, 244, 0.5);
   }
 }
+
 
 .profile-pic {
   animation: glowEffect 3s infinite;
