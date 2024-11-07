@@ -578,7 +578,7 @@ footer p {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  animation: rotateCube 10s infinite linear;
+  animation: rotateCube 20s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 /* Cube Animation */
 @keyframes rotateCube {
@@ -615,12 +615,12 @@ footer p {
   text-align: center;
 }
 
-.cube__face--front  { background: hsla(180, 100%, 50%, 0.7); }
-.cube__face--right  { background: hsla(180, 100%, 50%, 0.7); }
-.cube__face--back   { background: hsla(180, 100%, 50%, 0.7); }
-.cube__face--left   { background: hsla(180, 100%, 50%, 0.7); }
-.cube__face--top    { background: hsla(180, 100%, 50%, 0.7); }
-.cube__face--bottom { background: hsla(180, 100%, 50%, 0.7); }
+.cube__face--front  { background: hsla(210, 77%, 67%, 0.7); }
+.cube__face--right  { background: hsla(210, 77%, 67%, 0.7); }
+.cube__face--back   { background: hsla(210, 77%, 67%, 0.7); }
+.cube__face--left   { background: hsla(210, 77%, 67%, 0.7); }
+.cube__face--top    { background: hsla(210, 77%, 67%, 0.7); }
+.cube__face--bottom { background: hsla(210, 77%, 67%, 0.7); }
 
 .cube__face--front  { transform: rotateY(  0deg) translateZ(100px); }
 .cube__face--right  { transform: rotateY( 90deg) translateZ(100px); }
