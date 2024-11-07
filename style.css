@@ -578,7 +578,30 @@ footer p {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
+  animation: rotateCube 10s infinite linear;
 }
+/* Cube Animation */
+@keyframes rotateCube {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  20% {
+    transform: rotateX(0deg) rotateY(90deg) rotateZ(0deg);
+  }
+  40% {
+    transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+  }
+  60% {
+    transform: rotateX(0deg) rotateY(270deg) rotateZ(0deg);
+  }
+  80% {
+    transform: rotateX(90deg) rotateY(270deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(90deg) rotateY(360deg) rotateZ(0deg);
+  }
+}
+
 
 .cube__face {
   position: absolute;
@@ -606,4 +629,4 @@ footer p {
 .cube__face--top    { transform: rotateX( 90deg) translateZ(100px); }
 .cube__face--bottom { transform: rotateX(-90deg) translateZ(100px); }
 
-.cube { transition: transform 1s; }
+
