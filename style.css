@@ -420,7 +420,44 @@ text-align: left;
   border-radius: 1rem;
   padding: 2rem;
   margin: 2rem 0;
+
+  /* Conic Gradient Animation */
+  --border-angle: 0turn; /* For initial rotation of the gradient */
+  --main-bg: conic-gradient(
+      from var(--border-angle),
+      #213,
+      #112 5%,
+      #112 60%,
+      #213 95%
+    );
+  
+  border: solid 5px transparent;
+  border-radius: 2em;
+  --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, #08f, #f03 99%, transparent);
+  
+  background: 
+    /* Padding-box clip this background inside the overall element except the border */
+    var(--main-bg) padding-box,
+    /* Border-box extends this background to the border space */
+    var(--gradient-border) border-box, 
+    /* Duplicate main background to fill in behind the gradient border */
+    var(--main-bg) border-box;
+
+  background-position: center center;
+
+  animation: bg-spin 3s linear infinite;
 }
+
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn; 
+  }
+}
+
+.contact-info-upper-container:hover {
+  animation-play-state: paused; 
+}
+
 
 .contact-info-container {
   display: flex;
@@ -578,7 +615,7 @@ footer p {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  animation: rotateCube 30s infinite steps(4, end);
+  animation: rotateCube 30s infinite cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 /* Cube Animation */
 @keyframes rotateCube {
