@@ -452,7 +452,7 @@ text-align: left;
 .contact-icon {
   height: 2.5rem !important;
   width: 2.5rem !important;
-  background: none;
+  background: white;
   filter: none; 
   transition: transform 0.3s ease, filter 0.3s ease;
 }
@@ -460,7 +460,7 @@ text-align: left;
 .email-icon {
   height: 2.5rem !important;
   width: 2.5rem !important;
-  background: none;
+  background: white;
   filter: none; 
   transition: transform 0.3s ease, filter 0.3s ease;
 }
