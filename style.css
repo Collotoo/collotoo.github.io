@@ -464,8 +464,7 @@ text-align: left;
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  border-radius: 0.5rem;
-  transition: all 0.3s ease;
+  border-radius: 0.5rem;  
 }
 
 .contact-info-container:hover {
