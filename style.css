@@ -625,18 +625,19 @@ footer p {
     transform: rotateX(0deg) rotateY(90deg) rotateZ(0deg);
   }
   40% {
-    transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+    transform: rotateX(90deg) rotateY(90deg) rotateZ(0deg);
   }
   60% {
-    transform: rotateX(0deg) rotateY(270deg) rotateZ(0deg);
+    transform: rotateX(180deg) rotateY(90deg) rotateZ(0deg);
   }
   80% {
-    transform: rotateX(90deg) rotateY(270deg) rotateZ(0deg);
+    transform: rotateX(270deg) rotateY(180deg) rotateZ(0deg);
   }
   100% {
-    transform: rotateX(90deg) rotateY(360deg) rotateZ(0deg);
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
   }
 }
+
 
 
 .cube__face {
