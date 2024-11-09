@@ -587,14 +587,12 @@ footer p {
   }
 }
 /*Cube animation*/
-.cube-container {
+.cube-container {  
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 1rem;
   padding: 2rem;
-  justify-content: center;
-  text-align: center;
-  transition: all 0.3s ease;
+  justify-content: center;  
 }
 .cube_img {
   width: 100%;
