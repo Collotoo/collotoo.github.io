@@ -419,7 +419,7 @@ text-align: left;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 1rem;
   padding: 2rem;
-  margin: 2rem 0;
+  margin: 2rem 0;  
 
   /* Conic Gradient Animation */
   --border-angle: 0turn; /* For initial rotation of the gradient */
@@ -458,6 +458,9 @@ text-align: left;
   animation-play-state: paused; 
 }
 
+.contact-founder {
+  justify-content: center;
+}
 
 .contact-info-container {
   display: flex;
