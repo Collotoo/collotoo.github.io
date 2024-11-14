@@ -612,8 +612,8 @@ footer p {
   position: relative;
 }
 .scene {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   perspective: 400px; 
   display: flex;
   align-items: center;
