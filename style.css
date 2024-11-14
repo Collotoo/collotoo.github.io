@@ -612,8 +612,8 @@ footer p {
   position: relative;
 }
 .scene {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   perspective: 400px; 
   display: flex;
   align-items: center;
@@ -653,8 +653,8 @@ footer p {
 
 .cube__face {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border: 2px solid black;
   line-height: 200px;
   font-size: 40px;
